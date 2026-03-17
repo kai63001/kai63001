@@ -74,7 +74,7 @@ I actively contribute to the cybersecurity community by discovering and responsi
   <a href="https://hackerone.com/romeo1?type=user">
     <img src="https://img.shields.io/badge/HackerOne-white?style=for-the-badge&logo=hackerone&logoColor=black" alt="HackerOne" />
   </a>
-  <a href="https://hackenproof.com/hackers/romeo63001">
+  <a href="https://hackenproof.com/hackers/romeo63001?tab=programs">
     <img src="https://img.shields.io/badge/🛡️_HackenProof-romeo63001-%23181818?style=for-the-badge&color=21C55D&labelColor=181818" alt="HackenProof Profile" />
   </a>
 </div>

@@ -34,7 +34,7 @@ I actively contribute to the cybersecurity community by discovering and responsi
 | :--- | :--- | :--- |
 | 🚨 [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453) | 🚨 [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629) | 🚨 [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454) |
 | 🚨 [CVE-2026-3365](https://www.cve.org/CVERecord?id=CVE-2026-3365) | 🚨 [CVE-2026-3369](https://www.cve.org/CVERecord?id=CVE-2026-3369) | 🚨 [CVE-2026-3361](https://www.cve.org/CVERecord?id=CVE-2026-3361) |
-| 🚨 [CVE-2026-3722](https://www.cve.org/CVERecord?id=CVE-2026-3722) | | |
+| 🚨 [CVE-2026-3722](https://www.cve.org/CVERecord?id=CVE-2026-3722) | 🚨 [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664) | |
 
 ---
 

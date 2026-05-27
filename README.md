@@ -40,10 +40,10 @@ My main areas of interest include authentication, authorization, API security, b
 
 **CVE Records**
 
+- [CVE-2026-7465](https://www.cve.org/CVERecord?id=CVE-2026-7465)
 - [CVE-2026-7458](https://www.cve.org/CVERecord?id=CVE-2026-7458)
 - [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453)
 - [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629)
-- [CVE-2026-7465](https://www.cve.org/CVERecord?id=CVE-2026-7465)
 - [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664)
 - [CVE-2026-3722](https://www.cve.org/CVERecord?id=CVE-2026-3722)
 - [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454)

@@ -60,8 +60,4 @@ My main areas of interest include authentication, authorization, API security, b
 - [App Store — Supanat Konprom](https://apps.apple.com/us/developer/supanat-konprom/id1748557723)
 - [Google Play — Laybiks](https://play.google.com/store/apps/developer?id=Laybiks)
 
----
 
-## How I Work
-
-I prefer simple architecture, clear documentation, practical security thinking, and maintainable code.

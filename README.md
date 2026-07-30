@@ -13,10 +13,6 @@
   <a href="https://hackenproof.com/hackers/romeo63001?tab=programs"><img alt="HackenProof" src="https://img.shields.io/badge/HackenProof-0d1014?style=flat-square"></a>
 </p>
 
-<p align="center">
-  <code>15 published CVEs</code> · <code>3 critical</code> · <code>highest 9.8</code> · <code>5 live products</code>
-</p>
-
 ---
 
 ## What I do
@@ -35,26 +31,15 @@ Two disciplines, one habit: read the system until it gives up its assumptions.
 | --- | --- | --- |
 | **[Zolt](https://zoltdb.com/)** | macOS · Windows · Linux | GPU-rendered database client written in Rust on GPUI. 120 fps across Postgres, MySQL, SQLite, Redis, and MongoDB — no Electron. |
 | **[Trade Buddy](https://trade-buddy.korsund.com/)** | Web · iOS | Trading journal with a visual PnL calendar, AI coaching, and decision-grade performance analytics. |
-| **[Matcha](https://matcha.korsund.com/)** | iOS · watchOS | Live caffeine model with a sleep countdown and weekly score, over a 2,300-drink database. |
-| **[Poopwell](https://poopwell.korsund.com/)** | iOS | Five-second gut-health tracking with food-trigger analysis and doctor-ready PDF reports. On-device. |
 | **[Korva](https://korva.korsund.com/)** | Desktop | Offline Microsoft Publisher alternative that opens real `.pub` files and exports print-ready PDF. |
 
 ---
 
 ## Security research
 
-### Featured — [CVE-2026-45490](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490) · Microsoft .NET SDK
-
-**Elevation of privilege to SYSTEM · CVSS 7.8 · CWE-285**
-
-The `dotnet workload` command exposes a named pipe with a weak ACL. Any local user can drive that pipe to create or truncate arbitrary files as another local user — including a privileged one — turning a low-privilege foothold into full SYSTEM control on Windows.
-
-Affects .NET SDK 8.0, 9.0, and 10.0. Fixed in the June 2026 servicing release.  
-[MSRC advisory](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490) · [dotnet/announcements#403](https://github.com/dotnet/announcements/issues/403) · [CVE record](https://www.cve.org/CVERecord?id=CVE-2026-45490)
-
 ### Published records
 
-Sorted by CVSS base score.
+Sorted by CVSS base score. Badged rows are vendor-platform findings, not plugins.
 
 | CVE | CVSS | Product | Class |
 | --- | --- | --- | --- |
@@ -65,7 +50,7 @@ Sorted by CVSS base score.
 | [CVE-2026-48874](https://www.cve.org/CVERecord?id=CVE-2026-48874) | **8.5** High | GamiPress | SQL injection |
 | [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453) | **8.1** High | ProfilePress | Subscription IDOR |
 | [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629) | **8.1** High | Import and export users | Privilege escalation |
-| [CVE-2026-45490](https://www.cve.org/CVERecord?id=CVE-2026-45490) | **7.8** High | **Microsoft .NET SDK** | Local elevation of privilege |
+| **[CVE-2026-45490](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490)** | **7.8** High | <img src="https://img.shields.io/badge/Microsoft_.NET_SDK-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Microsoft .NET SDK"> | **Local elevation of privilege to SYSTEM** |
 | [CVE-2026-49112](https://www.cve.org/CVERecord?id=CVE-2026-49112) | **7.5** High | Shared Files | Path traversal |
 | [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454) | **6.5** Medium | GenerateBlocks | Sensitive data exposure |
 | [CVE-2026-48965](https://www.cve.org/CVERecord?id=CVE-2026-48965) | **6.5** Medium | XCloner | Sensitive data exposure |
@@ -73,6 +58,8 @@ Sorted by CVSS base score.
 | [CVE-2026-3361](https://www.cve.org/CVERecord?id=CVE-2026-3361) | **6.4** Medium | WP Store Locator | Stored XSS |
 | [CVE-2026-3369](https://www.cve.org/CVERecord?id=CVE-2026-3369) | **5.4** Medium | Better Find and Replace | Stored XSS |
 | [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664) | **5.3** Medium | Customer Reviews for WooCommerce | Authentication bypass |
+
+**CVE-2026-45490** — the `dotnet workload` command exposes a named pipe with a weak ACL, so a local user can create or truncate arbitrary files as another local user and reach SYSTEM. Affects .NET SDK 8.0, 9.0, and 10.0 on Windows; fixed in the June 2026 servicing release. [MSRC advisory](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490) · [dotnet/announcements#403](https://github.com/dotnet/announcements/issues/403)
 
 Combined reach of the affected WordPress plugins is over 1.6 million active installs, with a single record — Spectra — covering 1M+ on its own.
 

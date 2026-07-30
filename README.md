@@ -80,7 +80,6 @@ Combined reach of the affected WordPress plugins is over 1.6 million active inst
 
 | Target | Status |
 | --- | --- |
-| [CVE-2026-3365](https://www.cve.org/CVERecord?id=CVE-2026-3365) | CVE assigned, official record not published |
 | NoMachine | Private research, details withheld |
 | Foxit PDF | Private research, details withheld |
 | Additional vendors | In the disclosure queue |

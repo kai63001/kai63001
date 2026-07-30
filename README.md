@@ -37,9 +37,33 @@ Two disciplines, one habit: read the system until it gives up its assumptions.
 
 ## Security research
 
+<table>
+  <tr>
+    <td>
+      <p align="center">
+        <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><img src="https://img.shields.io/badge/CVE--2026--45490-0d1014?style=for-the-badge&labelColor=0d1014" alt="CVE-2026-45490"></a>
+        <img src="https://img.shields.io/badge/CVSS_7.8-HIGH-f0883e?style=for-the-badge&labelColor=1c2128" alt="CVSS 7.8 High">
+        <img src="https://img.shields.io/badge/CWE--285-Improper_Authorization-8b949e?style=for-the-badge&labelColor=1c2128" alt="CWE-285 Improper Authorization">
+      </p>
+      <h3 align="center">Microsoft .NET SDK — elevation of privilege to SYSTEM</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/.NET_SDK-8.0_·_9.0_·_10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=1c2128" alt=".NET SDK 8.0, 9.0, 10.0">
+        <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c2128" alt="Windows">
+      </p>
+      <p>The <code>dotnet workload</code> command exposes a named pipe with a weak ACL. Any local user can drive that pipe to create or truncate arbitrary files as another local user — including a privileged one — turning a low-privilege foothold into full SYSTEM control.</p>
+      <p>Fixed in the June 2026 servicing release: SDK <code>10.0.109</code>, <code>9.0.118</code>, <code>8.0.128</code> and later.</p>
+      <p align="center">
+        <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><b>MSRC advisory</b></a> ·
+        <a href="https://github.com/dotnet/announcements/issues/403"><b>dotnet/announcements #403</b></a> ·
+        <a href="https://www.cve.org/CVERecord?id=CVE-2026-45490"><b>CVE record</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ### Published records
 
-Sorted by CVSS base score. Badged rows are vendor-platform findings, not plugins.
+Fourteen more records across the WordPress ecosystem, sorted by CVSS base score.
 
 | CVE | CVSS | Product | Class |
 | --- | --- | --- | --- |
@@ -50,7 +74,6 @@ Sorted by CVSS base score. Badged rows are vendor-platform findings, not plugins
 | [CVE-2026-48874](https://www.cve.org/CVERecord?id=CVE-2026-48874) | **8.5** High | GamiPress | SQL injection |
 | [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453) | **8.1** High | ProfilePress | Subscription IDOR |
 | [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629) | **8.1** High | Import and export users | Privilege escalation |
-| **[CVE-2026-45490](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490)** | **7.8** High | <img src="https://img.shields.io/badge/Microsoft_.NET_SDK-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Microsoft .NET SDK"> | **Local elevation of privilege to SYSTEM** |
 | [CVE-2026-49112](https://www.cve.org/CVERecord?id=CVE-2026-49112) | **7.5** High | Shared Files | Path traversal |
 | [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454) | **6.5** Medium | GenerateBlocks | Sensitive data exposure |
 | [CVE-2026-48965](https://www.cve.org/CVERecord?id=CVE-2026-48965) | **6.5** Medium | XCloner | Sensitive data exposure |
@@ -58,8 +81,6 @@ Sorted by CVSS base score. Badged rows are vendor-platform findings, not plugins
 | [CVE-2026-3361](https://www.cve.org/CVERecord?id=CVE-2026-3361) | **6.4** Medium | WP Store Locator | Stored XSS |
 | [CVE-2026-3369](https://www.cve.org/CVERecord?id=CVE-2026-3369) | **5.4** Medium | Better Find and Replace | Stored XSS |
 | [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664) | **5.3** Medium | Customer Reviews for WooCommerce | Authentication bypass |
-
-**CVE-2026-45490** — the `dotnet workload` command exposes a named pipe with a weak ACL, so a local user can create or truncate arbitrary files as another local user and reach SYSTEM. Affects .NET SDK 8.0, 9.0, and 10.0 on Windows; fixed in the June 2026 servicing release. [MSRC advisory](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490) · [dotnet/announcements#403](https://github.com/dotnet/announcements/issues/403)
 
 Combined reach of the affected WordPress plugins is over 1.6 million active installs, with a single record — Spectra — covering 1M+ on its own.
 

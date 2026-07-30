@@ -1,17 +1,8 @@
 <h1 align="center">Supanat Konprom</h1>
 
-<p align="center">
-  <b>Product engineer · Application security researcher</b><br>
-  I ship native, mobile, and web products — and I take apart other people's.
-</p>
+<p align="center"><b>Product engineer · Application security researcher</b><br>I ship native, mobile, and web products — and I take apart other people's.</p>
 
-<p align="center">
-  <a href="https://korsund.com"><img alt="korsund.com" src="https://img.shields.io/badge/korsund.com-bcf45f?style=flat-square&logo=astro&logoColor=101504"></a>
-  <a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723"><img alt="App Store" src="https://img.shields.io/badge/App_Store-0d1014?style=flat-square&logo=appstore&logoColor=ffffff"></a>
-  <a href="https://play.google.com/store/apps/developer?id=Laybiks"><img alt="Google Play" src="https://img.shields.io/badge/Google_Play-0d1014?style=flat-square&logo=googleplay&logoColor=ffffff"></a>
-  <a href="https://hackerone.com/romeo1?type=user"><img alt="HackerOne" src="https://img.shields.io/badge/HackerOne-0d1014?style=flat-square&logo=hackerone&logoColor=ffffff"></a>
-  <a href="https://hackenproof.com/hackers/romeo63001?tab=programs"><img alt="HackenProof" src="https://img.shields.io/badge/HackenProof-0d1014?style=flat-square"></a>
-</p>
+<p align="center"><a href="https://korsund.com"><img alt="korsund.com" src="https://img.shields.io/badge/korsund.com-bcf45f?style=flat-square&logo=astro&logoColor=101504"></a> <a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723"><img alt="App Store" src="https://img.shields.io/badge/App_Store-1c2128?style=flat-square&logo=appstore&logoColor=ffffff"></a> <a href="https://play.google.com/store/apps/developer?id=Laybiks"><img alt="Google Play" src="https://img.shields.io/badge/Google_Play-1c2128?style=flat-square&logo=googleplay&logoColor=ffffff"></a> <a href="https://hackerone.com/romeo1?type=user"><img alt="HackerOne" src="https://img.shields.io/badge/HackerOne-1c2128?style=flat-square&logo=hackerone&logoColor=ffffff"></a> <a href="https://hackenproof.com/hackers/romeo63001?tab=programs"><img alt="HackenProof" src="https://img.shields.io/badge/HackenProof-1c2128?style=flat-square"></a></p>
 
 ---
 
@@ -40,22 +31,12 @@ Two disciplines, one habit: read the system until it gives up its assumptions.
 <table>
   <tr>
     <td>
-      <p align="center">
-        <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><img src="https://img.shields.io/badge/CVE--2026--45490-0d1014?style=for-the-badge&labelColor=0d1014" alt="CVE-2026-45490"></a>
-        <img src="https://img.shields.io/badge/CVSS_7.8-HIGH-f0883e?style=for-the-badge&labelColor=1c2128" alt="CVSS 7.8 High">
-        <img src="https://img.shields.io/badge/CWE--285-Improper_Authorization-8b949e?style=for-the-badge&labelColor=1c2128" alt="CWE-285 Improper Authorization">
-      </p>
+      <h2 align="center">CVE-2026-45490</h2>
       <h3 align="center">Microsoft .NET SDK — elevation of privilege to SYSTEM</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/.NET_SDK-8.0_·_9.0_·_10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=1c2128" alt=".NET SDK 8.0, 9.0, 10.0">
-        <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c2128" alt="Windows">
-      </p>
+      <p align="center"><img src="https://img.shields.io/badge/CVSS_7.8-HIGH-f0883e?style=for-the-badge&labelColor=1c2128" alt="CVSS 7.8 High"> <img src="https://img.shields.io/badge/CWE--285-8b949e?style=for-the-badge&labelColor=1c2128" alt="CWE-285"> <img src="https://img.shields.io/badge/.NET_SDK-8.0_·_9.0_·_10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=1c2128" alt=".NET SDK 8.0, 9.0, 10.0"> <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=1c2128" alt="Windows"></p>
       <p>The <code>dotnet workload</code> command exposes a named pipe with a weak ACL. Any local user can drive that pipe to create or truncate arbitrary files as another local user — including a privileged one — turning a low-privilege foothold into full SYSTEM control.</p>
       <p>Fixed in the June 2026 servicing release: SDK <code>10.0.109</code>, <code>9.0.118</code>, <code>8.0.128</code> and later.</p>
-      <p align="center">
-        <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><b>MSRC advisory</b></a> ·
-        <a href="https://www.cve.org/CVERecord?id=CVE-2026-45490"><b>CVE record</b></a>
-      </p>
+      <p align="center"><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><b>MSRC advisory</b></a> · <a href="https://www.cve.org/CVERecord?id=CVE-2026-45490"><b>CVE record</b></a></p>
     </td>
   </tr>
 </table>

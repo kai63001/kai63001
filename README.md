@@ -2,7 +2,9 @@
 
 <p align="center"><b>Product engineer · Application security researcher</b><br>I ship native, mobile, and web products — and I take apart other people's.</p>
 
-<p align="center"><a href="https://korsund.com"><b>korsund.com</b></a> · <a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723">App Store</a> · <a href="https://play.google.com/store/apps/developer?id=Laybiks">Google Play</a></p>
+<p align="center"><a href="https://korsund.com"><img src="https://img.shields.io/badge/korsund.com-bcf45f?style=for-the-badge&logo=astro&logoColor=101504" alt="korsund.com"></a></p>
+
+<p align="center"><a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723">App Store</a> · <a href="https://play.google.com/store/apps/developer?id=Laybiks">Google Play</a></p>
 
 ---
 
@@ -48,20 +50,20 @@ Fourteen more records across the WordPress ecosystem, sorted by CVSS base score.
 
 | CVE | CVSS | Product | Class |
 | --- | --- | --- | --- |
-| [CVE-2026-7458](https://www.cve.org/CVERecord?id=CVE-2026-7458) | **9.8** Critical | User Verification | Authentication bypass |
-| [CVE-2026-57739](https://www.cve.org/CVERecord?id=CVE-2026-57739) | **9.3** Critical | AcyMailing SMTP Newsletter | Blind SQL injection |
-| [CVE-2026-42747](https://www.cve.org/CVERecord?id=CVE-2026-42747) | **9.3** Critical | Easy Form Builder | Blind SQL injection |
-| [CVE-2026-7465](https://www.cve.org/CVERecord?id=CVE-2026-7465) | **8.8** High | Spectra Gutenberg Blocks | Remote code execution |
-| [CVE-2026-48874](https://www.cve.org/CVERecord?id=CVE-2026-48874) | **8.5** High | GamiPress | SQL injection |
-| [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453) | **8.1** High | ProfilePress | Subscription IDOR |
-| [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629) | **8.1** High | Import and export users | Privilege escalation |
-| [CVE-2026-49112](https://www.cve.org/CVERecord?id=CVE-2026-49112) | **7.5** High | Shared Files | Path traversal |
-| [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454) | **6.5** Medium | GenerateBlocks | Sensitive data exposure |
-| [CVE-2026-48965](https://www.cve.org/CVERecord?id=CVE-2026-48965) | **6.5** Medium | XCloner | Sensitive data exposure |
-| [CVE-2026-3722](https://www.cve.org/CVERecord?id=CVE-2026-3722) | **6.4** Medium | Auto Image Attributes | Stored XSS |
-| [CVE-2026-3361](https://www.cve.org/CVERecord?id=CVE-2026-3361) | **6.4** Medium | WP Store Locator | Stored XSS |
-| [CVE-2026-3369](https://www.cve.org/CVERecord?id=CVE-2026-3369) | **5.4** Medium | Better Find and Replace | Stored XSS |
-| [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664) | **5.3** Medium | Customer Reviews for WooCommerce | Authentication bypass |
+| [CVE-2026-7458](https://www.cve.org/CVERecord?id=CVE-2026-7458) | 🔴 **9.8** Critical | User Verification | Authentication bypass |
+| [CVE-2026-57739](https://www.cve.org/CVERecord?id=CVE-2026-57739) | 🔴 **9.3** Critical | AcyMailing SMTP Newsletter | Blind SQL injection |
+| [CVE-2026-42747](https://www.cve.org/CVERecord?id=CVE-2026-42747) | 🔴 **9.3** Critical | Easy Form Builder | Blind SQL injection |
+| [CVE-2026-7465](https://www.cve.org/CVERecord?id=CVE-2026-7465) | 🟠 **8.8** High | Spectra Gutenberg Blocks | Remote code execution |
+| [CVE-2026-48874](https://www.cve.org/CVERecord?id=CVE-2026-48874) | 🟠 **8.5** High | GamiPress | SQL injection |
+| [CVE-2026-3453](https://www.cve.org/CVERecord?id=CVE-2026-3453) | 🟠 **8.1** High | ProfilePress | Subscription IDOR |
+| [CVE-2026-3629](https://www.cve.org/CVERecord?id=CVE-2026-3629) | 🟠 **8.1** High | Import and export users | Privilege escalation |
+| [CVE-2026-49112](https://www.cve.org/CVERecord?id=CVE-2026-49112) | 🟠 **7.5** High | Shared Files | Path traversal |
+| [CVE-2026-3454](https://www.cve.org/CVERecord?id=CVE-2026-3454) | 🟡 **6.5** Medium | GenerateBlocks | Sensitive data exposure |
+| [CVE-2026-48965](https://www.cve.org/CVERecord?id=CVE-2026-48965) | 🟡 **6.5** Medium | XCloner | Sensitive data exposure |
+| [CVE-2026-3722](https://www.cve.org/CVERecord?id=CVE-2026-3722) | 🟡 **6.4** Medium | Auto Image Attributes | Stored XSS |
+| [CVE-2026-3361](https://www.cve.org/CVERecord?id=CVE-2026-3361) | 🟡 **6.4** Medium | WP Store Locator | Stored XSS |
+| [CVE-2026-3369](https://www.cve.org/CVERecord?id=CVE-2026-3369) | 🟡 **5.4** Medium | Better Find and Replace | Stored XSS |
+| [CVE-2026-4664](https://www.cve.org/CVERecord?id=CVE-2026-4664) | 🟡 **5.3** Medium | Customer Reviews for WooCommerce | Authentication bypass |
 
 Combined reach of the affected WordPress plugins is over 1.6 million active installs, with a single record — Spectra — covering 1M+ on its own.
 

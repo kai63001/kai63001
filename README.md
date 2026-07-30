@@ -54,7 +54,6 @@ Two disciplines, one habit: read the system until it gives up its assumptions.
       <p>Fixed in the June 2026 servicing release: SDK <code>10.0.109</code>, <code>9.0.118</code>, <code>8.0.128</code> and later.</p>
       <p align="center">
         <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><b>MSRC advisory</b></a> ·
-        <a href="https://github.com/dotnet/announcements/issues/403"><b>dotnet/announcements #403</b></a> ·
         <a href="https://www.cve.org/CVERecord?id=CVE-2026-45490"><b>CVE record</b></a>
       </p>
     </td>

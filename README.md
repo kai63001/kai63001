@@ -2,7 +2,7 @@
 
 <p align="center"><b>Product engineer · Application security researcher</b><br>I ship native, mobile, and web products — and I take apart other people's.</p>
 
-<p align="center"><a href="https://korsund.com"><b>korsund.com</b></a> · <a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723">App Store</a> · <a href="https://play.google.com/store/apps/developer?id=Laybiks">Google Play</a> · <a href="https://hackerone.com/romeo1?type=user">HackerOne</a> · <a href="https://hackenproof.com/hackers/romeo63001?tab=programs">HackenProof</a></p>
+<p align="center"><a href="https://korsund.com"><b>korsund.com</b></a> · <a href="https://apps.apple.com/us/developer/supanat-konprom/id1748557723">App Store</a> · <a href="https://play.google.com/store/apps/developer?id=Laybiks">Google Play</a></p>
 
 ---
 
@@ -89,7 +89,6 @@ Details go public when the vendor ships, not before.
 ## Elsewhere
 
 [korsund.com](https://korsund.com) — full portfolio and disclosure archive  
-[HackerOne: romeo1](https://hackerone.com/romeo1?type=user) · [HackenProof: romeo63001](https://hackenproof.com/hackers/romeo63001?tab=programs) — bug bounty profiles  
 [App Store](https://apps.apple.com/us/developer/supanat-konprom/id1748557723) · [Google Play](https://play.google.com/store/apps/developer?id=Laybiks) — published apps
 
 Open to security research collaboration and product work. Reach me at **supanat0245@gmail.com**.

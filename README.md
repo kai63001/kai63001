@@ -42,6 +42,17 @@ Two disciplines, one habit: read the system until it gives up its assumptions.
       <p align="center"><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45490"><b>MSRC advisory</b></a> · <a href="https://www.cve.org/CVERecord?id=CVE-2026-45490"><b>CVE record</b></a></p>
     </td>
   </tr>
+  <tr>
+    <td>
+      <h2 align="center">CVE-2026-62871</h2>
+      <h3 align="center">Microsoft .NET / WPF Desktop Runtime — heap overflow to elevation of privilege</h3>
+      <p align="center"><img src="https://img.shields.io/badge/CVSS_7.8-HIGH-f0883e?style=for-the-badge&labelColor=1c2128" alt="CVSS 7.8 High"></p>
+      <p align="center"><code>CWE-787 Out-of-bounds Write</code> · <code>.NET on Windows</code> · <code>Visual Studio</code> · <code>Elevation of privilege</code></p>
+      <p>A heap-based buffer overflow in the WPF .NET Desktop Runtime. At the native-to-managed boundary, a marshaling path fails to validate a buffer length before writing past its bounds — an out-of-bounds write on the native heap. A local attacker who gets a user to run crafted content can corrupt heap memory and execute arbitrary instructions at higher privilege.</p>
+      <p>Fixed in Microsoft's August 2026 Patch Tuesday servicing release (August 11, 2026). Apply the current .NET Desktop Runtime and Visual Studio updates.</p>
+      <p align="center"><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62871"><b>MSRC advisory</b></a> · <a href="https://www.cve.org/CVERecord?id=CVE-2026-62871"><b>CVE record</b></a></p>
+    </td>
+  </tr>
 </table>
 
 ### Published records
@@ -95,4 +106,4 @@ Details go public when the vendor ships, not before.
 
 Open to security research collaboration and product work. Reach me at **supanat0245@gmail.com**.
 
-<sub>Counts current as of July 2026.</sub>
+<sub>Counts current as of August 2026.</sub>
